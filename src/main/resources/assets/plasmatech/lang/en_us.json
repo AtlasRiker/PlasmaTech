@@ -1,0 +1,19 @@
+{
+  "item.plasmatech.tritanium_ingot": "Tritanium Ingot",
+  "item.plasmatech.tritanium_nugget": "Tritanium Nugget",
+  "item.plasmatech.raw_tritanium": "Raw Tritanium",
+
+  "item.plasmatech.tritanium_helmet": "Tritanium Helmet",
+  "item.plasmatech.tritanium_leggings": "Tritanium Leggings",
+  "item.plasmatech.tritanium_chestplate": "Tritanium Chestplates",
+  "item.plasmatech.tritanium_boots": "Tritanium Boots",
+
+  "block.plasmatech.tritanium_block": "Tritanium Block",
+  "block.plasmatech.raw_tritanium_block": "Raw Tritanium Block",
+  "block.plasmatech.tritanium_ore": "Tritanium Ore",
+  "block.plasmatech.deepslate_tritanium_ore": "Deepslate Tritanium Ore",
+
+  "block.plasmatech.crystal_concentrator": "Crystal Concentrator",
+
+  "creativemodetab.plasmatech_tab": "PlasmaTech"
+}

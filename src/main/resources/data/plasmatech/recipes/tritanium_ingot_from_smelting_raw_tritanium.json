@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "plasmatech:raw_tritanium"
+  },
+  "result": "plasmatech:tritanium_ingot"
+}

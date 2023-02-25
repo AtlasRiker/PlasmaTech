@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "plasmatech:block/large_poor_dilithium_bud"
+  }
+}

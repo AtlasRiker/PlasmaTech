@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plasmatech:raw_tritanium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "plasmatech:raw_tritanium"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "plasmatech:tritanium_pickaxe"
+    },
+    {
+      "item": "plasmatech:tritanium_shovel"
+    },
+    {
+      "item": "plasmatech:tritanium_axe"
+    },
+    {
+      "item": "plasmatech:tritanium_hoe"
+    },
+    {
+      "item": "plasmatech:tritanium_sword"
+    },
+    {
+      "item": "plasmatech:tritanium_helmet"
+    },
+    {
+      "item": "plasmatech:tritanium_chestplate"
+    },
+    {
+      "item": "plasmatech:tritanium_leggings"
+    },
+    {
+      "item": "plasmatech:tritanium_boots"
+    },
+    {
+      "item": "plasmatech:tritanium_horse_armor"
+    },
+    {
+      "item": "minecraft:chainmail_helmet"
+    },
+    {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    {
+      "item": "minecraft:chainmail_leggings"
+    },
+    {
+      "item": "minecraft:chainmail_boots"
+    }
+  ],
+  "result": "plasmatech:tritanium_nugget"
+}

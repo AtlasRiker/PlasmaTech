@@ -29,7 +29,7 @@ displayName="Plasma Tech" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="plasmatech.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Thanks to Kaupenjoes amazing youtube tutorials, and to my exceptional girlfriend for putting up with me" #optional
 # A text field displayed in the mod UI
 authors="Atlas" #optional
 # Display Test controls the display for your mod in the server connection screen

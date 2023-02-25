@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "plasmatech:block/small_poor_dilithium_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "plasmatech:block/small_poor_dilithium_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plasmatech:block/small_poor_dilithium_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "plasmatech:block/small_poor_dilithium_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "plasmatech:block/small_poor_dilithium_bud"
+    },
+    "facing=west": {
+      "model": "plasmatech:block/small_poor_dilithium_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

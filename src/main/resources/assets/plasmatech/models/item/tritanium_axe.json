@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "plasmatech:item/tritanium_axe"
+  }
+}

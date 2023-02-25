@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "plasmatech:block/poor_dilithium_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "plasmatech:block/poor_dilithium_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plasmatech:block/poor_dilithium_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "plasmatech:block/poor_dilithium_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "plasmatech:block/poor_dilithium_cluster"
+    },
+    "facing=west": {
+      "model": "plasmatech:block/poor_dilithium_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

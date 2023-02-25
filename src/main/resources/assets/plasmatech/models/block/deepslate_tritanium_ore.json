@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "plasmatech:block/deepslate_tritanium_ore"
+  }
+}

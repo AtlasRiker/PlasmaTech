@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "plasmatech:raw_tritanium"
+    }
+  },
+  "result": {
+    "item": "plasmatech:raw_tritanium_block"
+  }
+}

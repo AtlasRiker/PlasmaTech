@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "plasmatech:tritanium_ore",
+    "plasmatech:deepslate_tritanium_ore",
+    "plasmatech:tritanium_block",
+    "plasmatech:raw_tritanium_block"
+  ]
+}
