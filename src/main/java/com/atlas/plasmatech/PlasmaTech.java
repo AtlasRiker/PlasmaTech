@@ -4,13 +4,13 @@ import com.atlas.plasmatech.block.ModBlocks;
 import com.atlas.plasmatech.block.entity.ModBlockEntities;
 import com.atlas.plasmatech.item.ModCreativeModeTabs;
 import com.atlas.plasmatech.item.ModItems;
+import com.atlas.plasmatech.networking.ModMessages;
+import com.atlas.plasmatech.world.feature.ModConfiguredFeatures;
+import com.atlas.plasmatech.world.feature.ModPlacedFeatures;
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -39,14 +39,14 @@ public class PlasmaTech
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
 
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -54,20 +54,8 @@ public class PlasmaTech
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
         LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-    }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event)
-    {
-        if (event.getTab() == ModCreativeModeTabs.PLASMATECH_TAB) {
-            for(RegistryObject entry : ModBlocks.BLOCKS.getEntries())
-            {
-                event.accept(entry);
-            }
-            for(RegistryObject entry : ModItems.ITEMS.getEntries())
-            {
-                event.accept(entry);
-            }
-        }
+        ModMessages.register();
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

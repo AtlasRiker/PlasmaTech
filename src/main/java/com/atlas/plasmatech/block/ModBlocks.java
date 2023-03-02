@@ -1,8 +1,11 @@
 package com.atlas.plasmatech.block;
 
+import com.atlas.plasmatech.block.custom.ConcentratorBlock;
+import com.atlas.plasmatech.item.ModCreativeModeTabs;
 import com.atlas.plasmatech.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.AmethystClusterBlock;
 import net.minecraft.world.level.block.Block;
@@ -43,7 +46,7 @@ public class ModBlocks {
                     .strength(5.0F, 6.0F)));
 
     public static final RegistryObject<Block> CRYSTAL_CONCENTRATOR = registerBlock("crystal_concentrator",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new ConcentratorBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops().noOcclusion()));
 
     public static final RegistryObject<Block> NAQUADAH_GENERATOR = registerBlock("naquadah_generator_on",
@@ -73,7 +76,7 @@ public class ModBlocks {
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties()));
+                new Item.Properties().tab(ModCreativeModeTabs.PLASMATECH_TAB)));
     }
 
     public static void register(IEventBus eventBus){
